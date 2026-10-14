@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <html lang="ru">
+    <head>
+      <meta charset="UTF-8" />
+      <title>DOM_JS. Считываем информацию из DOM</title>
+      <link rel="stylesheet" href="my.css" />
+         <style type="text/css">
+       
+        body {
+    background-image: url(pasport.jpg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 0 368px;    /* ← сдвиг вниз на 300px */
+    margin-top: 100px;
+}
+    .nav{
+        margin-top: 1px;
+    }
+    .block1{
+        margin-left: 220px;
+        margin-top: 338px;
+    }
+    .block2{
+        margin-left: 220px;
+        margin-top: 22px;
+    }
+     .block3{
+        margin-left: 220px;
+        margin-top: 6px;
+    }
+     .block4{
+        margin-left: 25px;
+        margin-top: -40px;
+    }
+        </style>
+    </head>
+    <body>
+         <header>
+        <h1>Website about BLACKPINK</h1>
+        <h2>Navigation</h2>
+        <nav>
+          <ul>
+            <li><a href="page1.html">Home</a></li>
+            <li><a href="page2.html">Members</a></li>
+            <li><a href="page4.html">An online-test for fans</a></li>
+            <li><a href="page5_passport.html"  class="active">About me</a></li>
+            <li>
+              <a href="https://www.youtube.com/@BLACKPINK" target="_blank">Youtube chanell</a>
+            </li>
+            <li>
+              <a
+                href="https://ru.wikipedia.org/wiki/Blackpink?ysclid=mtwu3e2dy4849633151"
+              >
+                <img
+                  src="wikipedia_icon_232012.webp"
+                  alt="link for wikipedia"
+                  width="20"
+                  target="_blank"
+                />
+              </a>
+            </li>
+            <li><a href="page1.html#h2">Second part of Home</a></li>
+             <li><a href="page6_zad.html">Algorhytmic task</a></li>
+          </ul>
+        </nav>
+      </header>
+
+        <div class="block1">Губайдуллина</div>
+        <div class="block2">Камила</div>
+        <div class="block3">Ахатовна</div>
+    <div class="block4"> 
+        <img src="me.jpg" width="105">
+    </div>
+    <button class="btn" id="change">Заменить</button>
+    </body>
+    <script src="change.js"></script>
+    <br>
+    <hr>
+    <h2>Скриншот вызова элемента и его изменения через консоль:</h2>
+    <img src="scr.png" width="1000">
+    </html>
